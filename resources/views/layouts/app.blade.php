@@ -15,7 +15,9 @@
 </head>
 
 <body>
-  <h1>ciao!</h1>
+  <header>@include('partials._navbar')</header>
+  <main>@yield('main-content')</main>
+  <footer></footer>
 </body>
 
 </html>
