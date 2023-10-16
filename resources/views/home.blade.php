@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('main-content')
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
   <div class="row g-3">
     @forelse ($movies as $movie)
     <div class="col-3">
